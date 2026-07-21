@@ -36,4 +36,19 @@
 - g：组
 - o：其他用户
 - a：所有用户
-#### cat test.txt 查看文件内容
+#### cat test.txt 查看文件内容，一次性打印所有内容
+#### less test.txt 查看文件内容，分页查看，空格翻页，q退出
+#### more test.txt 简易分页
+#### tail test.txt 查看末尾10行
+#### tail -f log.log 实时跟踪日志
+#### tail -n 100 test.txt
+#### head test.txt 查看前10行
+#### cp a.txt /temp/   复制文件到temp目录
+#### cp -r folder /temp/ 复制文件夹
+#### mv old.txt new.txt 重命名文件
+#### mv file /temp/  移动文件
+#### find / -name "*.log"  全盘搜索后缀log文件
+#### find ./ -type f  只搜索文件
+#### grep "关键词" file.txt 在文件中匹配文字
+#### grep -i "error" log 忽略大小写搜索
+#### grep -r "404" ./ 递归搜索文件夹内所有文件
